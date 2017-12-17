@@ -1,5 +1,6 @@
 # Bitcoin Address Lookup - Mac App
 Mac app for looking up Bitcoin addresses.
+
 ![App icon image](https://bakkertechnologies.com/applications/BTCAddressLookup/icon_256x256%402x.png)
 
 ## Get the app
