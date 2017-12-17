@@ -1,0 +1,629 @@
+2017-12-17 18:06:26 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fe3f3ddd060; archive(resolved)='<IDEArchive: 0x7fe412289550>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodDirectDistribution: 0x7fe41223b690>', team(resolved)='<IDEProvisioningBasicTeam 0x7fe40616ebf0: teamID: 4SJ5BPZ2QK, teamName: Haakon Hoel Bakker>'>
+	Chain (10, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fe3f3ddd060; archive = '<IDEArchive: 0x7fe412289550>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fe41223b690>', team='<IDEProvisioningBasicTeam 0x7fe40616ebf0: teamID: 4SJ5BPZ2QK, teamName: Haakon Hoel Bakker>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fe40bc9b550; archive = '<IDEArchive: 0x7fe412289550>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fe41223b690>', team='<IDEProvisioningBasicTeam 0x7fe40616ebf0: teamID: 4SJ5BPZ2QK, teamName: Haakon Hoel Bakker>'>
+	<IDEDistributionContext: 0x7fe412bc1a80; archive = '<IDEArchive: 0x7fe412289550>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fe41223b690>', team='<IDEProvisioningBasicTeam 0x7fe40616ebf0: teamID: 4SJ5BPZ2QK, teamName: Haakon Hoel Bakker>'>
+	<IDEDistributionContext: 0x7fe413add4f0; archive = '<IDEArchive: 0x7fe412289550>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fe41223b690>', team='<IDEProvisioningBasicTeam 0x7fe40616ebf0: teamID: 4SJ5BPZ2QK, teamName: Haakon Hoel Bakker>'>
+	<IDEDistributionContext: 0x7fe3f3da4d20; archive = '<IDEArchive: 0x7fe412289550>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fe41223b690>', team='<IDEProvisioningBasicTeam 0x7fe40616ebf0: teamID: 4SJ5BPZ2QK, teamName: Haakon Hoel Bakker>'>
+	<IDEDistributionContext: 0x7fe3f3da5210; archive = '<IDEArchive: 0x7fe412289550>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fe41223b690>', team='<IDEProvisioningBasicTeam 0x7fe40616ebf0: teamID: 4SJ5BPZ2QK, teamName: Haakon Hoel Bakker>'>
+	<IDEDistributionContext: 0x7fe3f3d9e960; archive = '<IDEArchive: 0x7fe412289550>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fe41223b690>', team='<IDEProvisioningBasicTeam 0x7fe40616ebf0: teamID: 4SJ5BPZ2QK, teamName: Haakon Hoel Bakker>'>
+	<IDEDistributionContext: 0x7fe40b6e1ee0; archive = '<IDEArchive: 0x7fe412289550>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fe41223b690>', team='<IDEProvisioningBasicTeam 0x7fe40616ebf0: teamID: 4SJ5BPZ2QK, teamName: Haakon Hoel Bakker>'>
+	<IDEDistributionContext: 0x7fe4065395c0; archive = '<IDEArchive: 0x7fe412289550>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fe41223b690>', team='(null)'>
+	<IDEDistributionContext: 0x7fe3f3d6bd30; archive = '<IDEArchive: 0x7fe412289550>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fe3f3ddd060>
+2017-12-17 18:06:26 +0000  Processing step: IDEDistributionCreateDestRootStep
+2017-12-17 18:06:26 +0000  Processing step: IDEDistributionCopyItemStep
+2017-12-17 18:06:26 +0000  Running /usr/bin/ditto '-V' '/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app'
+2017-12-17 18:06:26 +0000  >>> Copying /Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app 
+2017-12-17 18:06:26 +0000  copying file ./Contents/_CodeSignature/CodeResources ... 
+2017-12-17 18:06:26 +0000  9968 bytes for ./Contents/_CodeSignature/CodeResources
+2017-12-17 18:06:26 +0000  copying file ./Contents/MacOS/BTC Address Lookup ... 
+2017-12-17 18:06:26 +0000  62960 bytes for ./Contents/MacOS/BTC Address Lookup
+2017-12-17 18:06:26 +0000  copying file ./Contents/Resources/AppIcon-2.icns ... 
+2017-12-17 18:06:26 +0000  32015 bytes for ./Contents/Resources/AppIcon-2.icns
+2017-12-17 18:06:26 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib ... 
+2017-12-17 18:06:26 +0000  21355 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib ... 
+2017-12-17 18:06:26 +0000  12654 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib
+2017-12-17 18:06:26 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib ... 
+2017-12-17 18:06:26 +0000  3757 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist ... 
+2017-12-17 18:06:26 +0000  445 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Contents/Resources/Assets.car ... 
+2017-12-17 18:06:26 +0000  180552 bytes for ./Contents/Resources/Assets.car
+2017-12-17 18:06:26 +0000  copying file ./Contents/Frameworks/libswiftAppKit.dylib ... 
+2017-12-17 18:06:26 +0000  138656 bytes for ./Contents/Frameworks/libswiftAppKit.dylib
+copying file ./Contents/Frameworks/libswiftCoreImage.dylib ... 
+2017-12-17 18:06:26 +0000  40352 bytes for ./Contents/Frameworks/libswiftCoreImage.dylib
+2017-12-17 18:06:26 +0000  copying file ./Contents/Frameworks/libswiftObjectiveC.dylib ... 
+2017-12-17 18:06:26 +0000  62016 bytes for ./Contents/Frameworks/libswiftObjectiveC.dylib
+copying file ./Contents/Frameworks/libswiftXPC.dylib ... 
+2017-12-17 18:06:26 +0000  36144 bytes for ./Contents/Frameworks/libswiftXPC.dylib
+copying file ./Contents/Frameworks/libswiftCore.dylib ... 
+2017-12-17 18:06:26 +0000  7183728 bytes for ./Contents/Frameworks/libswiftCore.dylib
+copying file ./Contents/Frameworks/libswiftCoreGraphics.dylib ... 
+2017-12-17 18:06:26 +0000  165296 bytes for ./Contents/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Contents/Frameworks/libswiftMetal.dylib ... 
+68528 bytes for ./Contents/Frameworks/libswiftMetal.dylib
+copying file ./Contents/Frameworks/libswiftCoreData.dylib ... 
+2017-12-17 18:06:26 +0000  99584 bytes for ./Contents/Frameworks/libswiftCoreData.dylib
+2017-12-17 18:06:26 +0000  copying file ./Contents/Frameworks/libswiftDispatch.dylib ... 
+2017-12-17 18:06:26 +0000  308464 bytes for ./Contents/Frameworks/libswiftDispatch.dylib
+copying file ./Contents/Frameworks/libswiftos.dylib ... 
+2017-12-17 18:06:26 +0000  48128 bytes for ./Contents/Frameworks/libswiftos.dylib
+2017-12-17 18:06:26 +0000  copying file ./Contents/Frameworks/libswiftCoreFoundation.dylib ... 
+2017-12-17 18:06:26 +0000  31856 bytes for ./Contents/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Contents/Frameworks/libswiftDarwin.dylib ... 
+2017-12-17 18:06:26 +0000  75792 bytes for ./Contents/Frameworks/libswiftDarwin.dylib
+copying file ./Contents/Frameworks/libswiftQuartzCore.dylib ... 
+2017-12-17 18:06:26 +0000  52784 bytes for ./Contents/Frameworks/libswiftQuartzCore.dylib
+2017-12-17 18:06:26 +0000  copying file ./Contents/Frameworks/libswiftIOKit.dylib ... 
+2017-12-17 18:06:26 +0000  36064 bytes for ./Contents/Frameworks/libswiftIOKit.dylib
+copying file ./Contents/Frameworks/libswiftFoundation.dylib ... 
+2017-12-17 18:06:26 +0000  2795712 bytes for ./Contents/Frameworks/libswiftFoundation.dylib
+2017-12-17 18:06:26 +0000  copying file ./Contents/Info.plist ... 
+1710 bytes for ./Contents/Info.plist
+copying file ./Contents/PkgInfo ... 
+8 bytes for ./Contents/PkgInfo
+2017-12-17 18:06:26 +0000  2017-12-17 18:06:26 +0000  
+
+2017-12-17 18:06:26 +0000  /usr/bin/ditto exited with 0
+2017-12-17 18:06:26 +0000  
+2017-12-17 18:06:26 +0000  
+2017-12-17 18:06:26 +0000  Processing step: IDEDistributionEmbedProfileStep
+2017-12-17 18:06:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe3f3d8b900 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fe412755f70:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftAppKit.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe3f3d926f0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fe4127ad140:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCore.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe40616cde0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fe4127f42c0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreData.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe412b36aa0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fe3f3f1b1b0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe412ef0350 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fe3f3f0f2d0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe40aa9a9b0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fe4120e94b0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe3f3dc9d70 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fe4139b1810:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftDarwin.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe4127e06c0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fe40c72d1d0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftDispatch.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe3f3da7130 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fe4127fa210:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftFoundation.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe40616f180 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fe40d176540:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftIOKit.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe4127d4c30 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fe3f3f32e20:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftMetal.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe412c5f180 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fe413907d90:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe412b54aa0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fe40d184570:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe4127eabe0 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fe413945f50:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftXPC.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe3f3da8860 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fe3f3f14000:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftos.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe3f3e8f3f0 '-SJ5BPZ2QK.com.bakkertechnologies.BitcoinAddressLookup' '<DVTFilePath:0x7fe412b669f0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app'>'>
+2017-12-17 18:06:26 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2017-12-17 18:06:26 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2017-12-17 18:06:26 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2017-12-17 18:06:26 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-17 18:06:26 +0000  Processing step: IDEDistributionSymbolsStep
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-17 18:06:26 +0000  Processing step: IDEDistributionAppThinningStep
+2017-12-17 18:06:26 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2017-12-17 18:06:26 +0000  Processing step: IDEDistributionODRStep
+2017-12-17 18:06:26 +0000  Processing step: IDEDistributionStripXattrsStep
+2017-12-17 18:06:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe3f3d8b900 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fe412755f70:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftAppKit.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe3f3d926f0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fe4127ad140:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCore.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe40616cde0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fe4127f42c0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreData.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe412b36aa0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fe3f3f1b1b0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe412ef0350 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fe3f3f0f2d0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe40aa9a9b0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fe4120e94b0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe3f3dc9d70 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fe4139b1810:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftDarwin.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe4127e06c0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fe40c72d1d0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftDispatch.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe3f3da7130 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fe4127fa210:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftFoundation.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe40616f180 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fe40d176540:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftIOKit.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe4127d4c30 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fe3f3f32e20:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftMetal.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe412c5f180 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fe413907d90:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe412b54aa0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fe40d184570:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe4127eabe0 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fe413945f50:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftXPC.dylib'>'>
+2017-12-17 18:06:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe3f3da8860 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fe3f3f14000:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftos.dylib'>'>
+2017-12-17 18:06:26 +0000  Running /usr/bin/xattr '-crs' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app'
+2017-12-17 18:06:26 +0000  
+2017-12-17 18:06:26 +0000  2017-12-17 18:06:26 +0000  /usr/bin/xattr exited with 0
+2017-12-17 18:06:26 +0000  
+
+2017-12-17 18:06:26 +0000  Processing step: IDEDistributionCodesignStep
+2017-12-17 18:06:26 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe3f3d8b900 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fe412755f70:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftAppKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe3f3db7e70>: {
+}
+2017-12-17 18:06:26 +0000  Entitlements for <IDEDistributionItem: 0x7fe3f3d8b900 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fe412755f70:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftAppKit.dylib'>'>: {
+}
+2017-12-17 18:06:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe3f3d8b900 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fe412755f70:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftAppKit.dylib'>'> to: /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementshisjoS
+2017-12-17 18:06:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1F351BE0D725AC6D7C6E6A4CEEE567ADD8468BC5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementshisjoS' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "4SJ5BPZ2QK" ))' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftAppKit.dylib'
+2017-12-17 18:06:26 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftAppKit.dylib: replacing existing signature
+2017-12-17 18:06:27 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftAppKit.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftAppKit]
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  2017-12-17 18:06:27 +0000  
+
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  2017-12-17 18:06:27 +0000  
+
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  2017-12-17 18:06:27 +0000  
+
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  /usr/bin/codesign exited with 0
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe3f3d926f0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fe4127ad140:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe412638480>: {
+}
+2017-12-17 18:06:27 +0000  Entitlements for <IDEDistributionItem: 0x7fe3f3d926f0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fe4127ad140:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCore.dylib'>'>: {
+}
+2017-12-17 18:06:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe3f3d926f0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fe4127ad140:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCore.dylib'>'> to: /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlements2syVQP
+2017-12-17 18:06:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1F351BE0D725AC6D7C6E6A4CEEE567ADD8468BC5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlements2syVQP' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "4SJ5BPZ2QK" ))' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCore.dylib'
+2017-12-17 18:06:27 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCore.dylib: replacing existing signature
+2017-12-17 18:06:27 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCore.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCore]
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  2017-12-17 18:06:27 +0000  
+
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  2017-12-17 18:06:27 +0000  
+
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  2017-12-17 18:06:27 +0000  /usr/bin/codesign exited with 0
+
+2017-12-17 18:06:27 +0000  2017-12-17 18:06:27 +0000  
+
+2017-12-17 18:06:27 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe40616cde0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fe4127f42c0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreData.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe3f3d9df20>: {
+}
+2017-12-17 18:06:27 +0000  Entitlements for <IDEDistributionItem: 0x7fe40616cde0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fe4127f42c0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreData.dylib'>'>: {
+}
+2017-12-17 18:06:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe40616cde0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fe4127f42c0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreData.dylib'>'> to: /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlements7giNv7
+2017-12-17 18:06:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1F351BE0D725AC6D7C6E6A4CEEE567ADD8468BC5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlements7giNv7' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "4SJ5BPZ2QK" ))' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreData.dylib'
+2017-12-17 18:06:27 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreData.dylib: replacing existing signature
+2017-12-17 18:06:27 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreData.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreData]
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  /usr/bin/codesign exited with 0
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  
+2017-12-17 18:06:27 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe412b36aa0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fe3f3f1b1b0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe3f3d641f0>: {
+}
+2017-12-17 18:06:27 +0000  Entitlements for <IDEDistributionItem: 0x7fe412b36aa0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fe3f3f1b1b0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2017-12-17 18:06:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe412b36aa0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fe3f3f1b1b0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementsumWMYO
+2017-12-17 18:06:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1F351BE0D725AC6D7C6E6A4CEEE567ADD8468BC5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementsumWMYO' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "4SJ5BPZ2QK" ))' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreFoundation.dylib'
+2017-12-17 18:06:27 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2017-12-17 18:06:28 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreFoundation]
+2017-12-17 18:06:28 +0000  2017-12-17 18:06:28 +0000  
+
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  2017-12-17 18:06:28 +0000  
+
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  2017-12-17 18:06:28 +0000  /usr/bin/codesign exited with 02017-12-17 18:06:28 +0000  
+
+
+2017-12-17 18:06:28 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe412ef0350 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fe3f3f0f2d0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe3f3d52d20>: {
+}
+2017-12-17 18:06:28 +0000  Entitlements for <IDEDistributionItem: 0x7fe412ef0350 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fe3f3f0f2d0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2017-12-17 18:06:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe412ef0350 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fe3f3f0f2d0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementsb7wpon
+2017-12-17 18:06:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1F351BE0D725AC6D7C6E6A4CEEE567ADD8468BC5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementsb7wpon' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "4SJ5BPZ2QK" ))' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreGraphics.dylib'
+2017-12-17 18:06:28 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2017-12-17 18:06:28 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreGraphics]
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  /usr/bin/codesign exited with 02017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+
+2017-12-17 18:06:28 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe40aa9a9b0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fe4120e94b0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreImage.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe3f3db23b0>: {
+}
+2017-12-17 18:06:28 +0000  Entitlements for <IDEDistributionItem: 0x7fe40aa9a9b0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fe4120e94b0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2017-12-17 18:06:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe40aa9a9b0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fe4120e94b0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementsngW7WA
+2017-12-17 18:06:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1F351BE0D725AC6D7C6E6A4CEEE567ADD8468BC5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementsngW7WA' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "4SJ5BPZ2QK" ))' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreImage.dylib'
+2017-12-17 18:06:28 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2017-12-17 18:06:28 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftCoreImage.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreImage]
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  2017-12-17 18:06:28 +0000  
+
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  2017-12-17 18:06:28 +0000  
+
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  
+2017-12-17 18:06:28 +0000  2017-12-17 18:06:28 +0000  /usr/bin/codesign exited with 02017-12-17 18:06:28 +0000  
+
+
+2017-12-17 18:06:28 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe3f3dc9d70 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fe4139b1810:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftDarwin.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe3f3d7adb0>: {
+}
+2017-12-17 18:06:28 +0000  Entitlements for <IDEDistributionItem: 0x7fe3f3dc9d70 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fe4139b1810:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2017-12-17 18:06:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe3f3dc9d70 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fe4139b1810:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementsTVgITb
+2017-12-17 18:06:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1F351BE0D725AC6D7C6E6A4CEEE567ADD8468BC5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementsTVgITb' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "4SJ5BPZ2QK" ))' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftDarwin.dylib'
+2017-12-17 18:06:28 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2017-12-17 18:06:29 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftDarwin.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftDarwin]
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  2017-12-17 18:06:29 +0000  /usr/bin/codesign exited with 0
+
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe4127e06c0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fe40c72d1d0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftDispatch.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe3f3d42ba0>: {
+}
+2017-12-17 18:06:29 +0000  Entitlements for <IDEDistributionItem: 0x7fe4127e06c0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fe40c72d1d0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2017-12-17 18:06:29 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe4127e06c0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fe40c72d1d0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementsdL1ciQ
+2017-12-17 18:06:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1F351BE0D725AC6D7C6E6A4CEEE567ADD8468BC5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementsdL1ciQ' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "4SJ5BPZ2QK" ))' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftDispatch.dylib'
+2017-12-17 18:06:29 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2017-12-17 18:06:29 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftDispatch.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftDispatch]
+2017-12-17 18:06:29 +0000  2017-12-17 18:06:29 +0000  
+
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  2017-12-17 18:06:29 +0000  
+
+2017-12-17 18:06:29 +0000  2017-12-17 18:06:29 +0000  
+
+2017-12-17 18:06:29 +0000  2017-12-17 18:06:29 +0000  
+
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  /usr/bin/codesign exited with 02017-12-17 18:06:29 +0000  2017-12-17 18:06:29 +0000  
+
+
+2017-12-17 18:06:29 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe3f3da7130 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fe4127fa210:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe3f3d893f0>: {
+}
+2017-12-17 18:06:29 +0000  Entitlements for <IDEDistributionItem: 0x7fe3f3da7130 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fe4127fa210:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2017-12-17 18:06:29 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe3f3da7130 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fe4127fa210:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementsNX7A60
+2017-12-17 18:06:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1F351BE0D725AC6D7C6E6A4CEEE567ADD8468BC5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementsNX7A60' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "4SJ5BPZ2QK" ))' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftFoundation.dylib'
+2017-12-17 18:06:29 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2017-12-17 18:06:29 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftFoundation.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftFoundation]
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  2017-12-17 18:06:29 +0000  
+
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  /usr/bin/codesign exited with 0
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  
+2017-12-17 18:06:29 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe40616f180 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fe40d176540:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftIOKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe3f3dad9e0>: {
+}
+2017-12-17 18:06:29 +0000  Entitlements for <IDEDistributionItem: 0x7fe40616f180 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fe40d176540:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftIOKit.dylib'>'>: {
+}
+2017-12-17 18:06:29 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe40616f180 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fe40d176540:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftIOKit.dylib'>'> to: /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlements939YF8
+2017-12-17 18:06:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1F351BE0D725AC6D7C6E6A4CEEE567ADD8468BC5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlements939YF8' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "4SJ5BPZ2QK" ))' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftIOKit.dylib'
+2017-12-17 18:06:29 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftIOKit.dylib: replacing existing signature
+2017-12-17 18:06:30 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftIOKit.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftIOKit]
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  /usr/bin/codesign exited with 02017-12-17 18:06:30 +0000  
+
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe4127d4c30 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fe3f3f32e20:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftMetal.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe413bf51d0>: {
+}
+2017-12-17 18:06:30 +0000  Entitlements for <IDEDistributionItem: 0x7fe4127d4c30 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fe3f3f32e20:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2017-12-17 18:06:30 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe4127d4c30 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fe3f3f32e20:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementswOo7Z9
+2017-12-17 18:06:30 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1F351BE0D725AC6D7C6E6A4CEEE567ADD8468BC5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementswOo7Z9' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "4SJ5BPZ2QK" ))' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftMetal.dylib'
+2017-12-17 18:06:30 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftMetal.dylib: replacing existing signature
+2017-12-17 18:06:30 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftMetal.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftMetal]
+2017-12-17 18:06:30 +0000  2017-12-17 18:06:30 +0000  
+
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  2017-12-17 18:06:30 +0000  
+
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  2017-12-17 18:06:30 +0000  2017-12-17 18:06:30 +0000  /usr/bin/codesign exited with 0
+
+
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe412c5f180 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fe413907d90:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe3f3db0c40>: {
+}
+2017-12-17 18:06:30 +0000  Entitlements for <IDEDistributionItem: 0x7fe412c5f180 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fe413907d90:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2017-12-17 18:06:30 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe412c5f180 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fe413907d90:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlements7c9QUh
+2017-12-17 18:06:30 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1F351BE0D725AC6D7C6E6A4CEEE567ADD8468BC5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlements7c9QUh' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "4SJ5BPZ2QK" ))' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftObjectiveC.dylib'
+2017-12-17 18:06:30 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2017-12-17 18:06:30 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftObjectiveC.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftObjectiveC]
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  
+2017-12-17 18:06:30 +0000  2017-12-17 18:06:30 +0000  /usr/bin/codesign exited with 0
+2017-12-17 18:06:30 +0000  
+
+2017-12-17 18:06:30 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe412b54aa0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fe40d184570:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe40c2b83e0>: {
+}
+2017-12-17 18:06:30 +0000  Entitlements for <IDEDistributionItem: 0x7fe412b54aa0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fe40d184570:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2017-12-17 18:06:30 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe412b54aa0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fe40d184570:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementsWUxZkp
+2017-12-17 18:06:30 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1F351BE0D725AC6D7C6E6A4CEEE567ADD8468BC5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementsWUxZkp' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "4SJ5BPZ2QK" ))' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftQuartzCore.dylib'
+2017-12-17 18:06:30 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2017-12-17 18:06:31 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftQuartzCore.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftQuartzCore]
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  /usr/bin/codesign exited with 02017-12-17 18:06:31 +0000  2017-12-17 18:06:31 +0000  
+
+
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe4127eabe0 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fe413945f50:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftXPC.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe3f3d75030>: {
+}
+2017-12-17 18:06:31 +0000  Entitlements for <IDEDistributionItem: 0x7fe4127eabe0 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fe413945f50:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftXPC.dylib'>'>: {
+}
+2017-12-17 18:06:31 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe4127eabe0 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fe413945f50:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftXPC.dylib'>'> to: /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlements5xuzFr
+2017-12-17 18:06:31 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1F351BE0D725AC6D7C6E6A4CEEE567ADD8468BC5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlements5xuzFr' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "4SJ5BPZ2QK" ))' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftXPC.dylib'
+2017-12-17 18:06:31 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftXPC.dylib: replacing existing signature
+2017-12-17 18:06:31 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftXPC.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftXPC]
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  2017-12-17 18:06:31 +0000  
+
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  2017-12-17 18:06:31 +0000  
+
+2017-12-17 18:06:31 +0000  2017-12-17 18:06:31 +0000  /usr/bin/codesign exited with 0
+
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe3f3da8860 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fe3f3f14000:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftos.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe3f3d6c330>: {
+}
+2017-12-17 18:06:31 +0000  Entitlements for <IDEDistributionItem: 0x7fe3f3da8860 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fe3f3f14000:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftos.dylib'>'>: {
+}
+2017-12-17 18:06:31 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe3f3da8860 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fe3f3f14000:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftos.dylib'>'> to: /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementsZJMo3b
+2017-12-17 18:06:31 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1F351BE0D725AC6D7C6E6A4CEEE567ADD8468BC5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementsZJMo3b' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "4SJ5BPZ2QK" ))' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftos.dylib'
+2017-12-17 18:06:31 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftos.dylib: replacing existing signature
+2017-12-17 18:06:31 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app/Contents/Frameworks/libswiftos.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftos]
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  2017-12-17 18:06:31 +0000  
+
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  /usr/bin/codesign exited with 02017-12-17 18:06:31 +0000  
+
+
+2017-12-17 18:06:31 +0000  
+2017-12-17 18:06:31 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe3f3e8f3f0 '-SJ5BPZ2QK.com.bakkertechnologies.BitcoinAddressLookup' '<DVTFilePath:0x7fe412b669f0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe412c93da0>: {
+}
+2017-12-17 18:06:31 +0000  Entitlements for <IDEDistributionItem: 0x7fe3f3e8f3f0 '-SJ5BPZ2QK.com.bakkertechnologies.BitcoinAddressLookup' '<DVTFilePath:0x7fe412b669f0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app'>'>: {
+}
+2017-12-17 18:06:31 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe3f3e8f3f0 '-SJ5BPZ2QK.com.bakkertechnologies.BitcoinAddressLookup' '<DVTFilePath:0x7fe412b669f0:'/Users/haakonbakker/Library/Developer/Xcode/Archives/2017-12-17/BitcoinAddressLookup 17-12-2017, 19.06.xcarchive/Products/Applications/BTC Address Lookup.app'>'> to: /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementsOWYk2F
+2017-12-17 18:06:31 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '1F351BE0D725AC6D7C6E6A4CEEE567ADD8468BC5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/entitlementsOWYk2F' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "4SJ5BPZ2QK" ))' '/var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app'
+2017-12-17 18:06:31 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app: replacing existing signature
+2017-12-17 18:06:32 +0000  /var/folders/hs/jdlnzhzn14d475nlt_d2q_280000gn/T/XcodeDistPipeline.agt/Root/Applications/BTC Address Lookup.app: signed app bundle with Mach-O thin (x86_64) [-SJ5BPZ2QK.com.bakkertechnologies.BitcoinAddressLookup]
+2017-12-17 18:06:32 +0000  
+2017-12-17 18:06:32 +0000  
+2017-12-17 18:06:32 +0000  
+2017-12-17 18:06:32 +0000  
+2017-12-17 18:06:32 +0000  
+2017-12-17 18:06:32 +0000  
+2017-12-17 18:06:32 +0000  
+2017-12-17 18:06:32 +0000  
+2017-12-17 18:06:32 +0000  
+2017-12-17 18:06:32 +0000  
+2017-12-17 18:06:32 +0000  
+2017-12-17 18:06:32 +0000  
+2017-12-17 18:06:32 +0000  
+2017-12-17 18:06:32 +0000  
+2017-12-17 18:06:32 +0000  
+2017-12-17 18:06:32 +0000  
+2017-12-17 18:06:32 +0000  
+2017-12-17 18:06:32 +0000  /usr/bin/codesign exited with 0
+2017-12-17 18:06:32 +0000  
+2017-12-17 18:06:32 +0000  
+2017-12-17 18:06:32 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2017-12-17 18:06:32 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-17 18:06:32 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-17 18:06:32 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-17 18:06:32 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-17 18:06:32 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-17 18:06:32 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-17 18:06:32 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-17 18:06:32 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-17 18:06:32 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-17 18:06:32 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-17 18:06:32 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-17 18:06:32 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-17 18:06:32 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-17 18:06:32 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-17 18:06:32 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-17 18:06:32 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-17 18:06:32 +0000  Processing step: IDEDistributionSkipPackagingStep
+2017-12-17 18:06:32 +0000  Processing step: IDEDistributionCreateManifestStep
+2017-12-17 18:06:32 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
