@@ -5,7 +5,7 @@ Mac app for looking up Bitcoin addresses.
 
 ## Get the app
 
-[Download The App Here](bakkertechnologies.com/applications/BTCAddressLookup/BTC%20Address%20Lookup.zip)
+[Download The App Here](https://www.bakkertechnologies.com/applications/BTCAddressLookup/BTC%20Address%20Lookup.zip)
 
 ## About
 I created this tool for fun, and figured others may find it interesting.
